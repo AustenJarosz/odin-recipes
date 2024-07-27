@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+.index-body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px;
+    background-color: lightblue;
+    border-radius: 30px;
+}
+
+.ingredients, .instructions {
+    width: 40%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.book {
+    font-size: 20;
+}
+
+.quote{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  
